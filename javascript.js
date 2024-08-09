@@ -24,6 +24,7 @@ $(document).ready(function() {
     $(".results").hide()
     color = selectRandomColor()
     setColor(color)
+    currentColor = color
     $(".answer").text(color)
     $("#guess").val("")
   })

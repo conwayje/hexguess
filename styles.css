@@ -18,6 +18,14 @@ html {
   display: block;
 }
 
+.sample-guess {
+  background-color: red;
+  height: 125px;
+  width: 125px;
+  border-radius: 5px;
+  display: block;
+}
+
 .input {
   width: 10%;
   margin-top: 16px;

@@ -27,6 +27,7 @@ $(document).ready(function() {
     currentColor = color
     $(".answer").text(color)
     $("#guess").val("")
+    $("#guess").focus()
   })
 
   function handleGuess() {
@@ -46,6 +47,7 @@ $(document).ready(function() {
         ((bComponentAnswer - bComponentGuess)**2))**(0.5))
 
       $(".distance").text(distance)
+      $(".sample-guess").css("background-color", "#" + enteredText)
       assignRating(distance)
       $(".results").show()
     } else {

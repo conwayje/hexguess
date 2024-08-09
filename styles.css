@@ -1,0 +1,52 @@
+html {
+  font-family: sans-serif;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.centered {
+  margin: auto;
+}
+
+.sample {
+  background-color: red;
+  height: 125px;
+  width: 125px;
+  border-radius: 5px;
+  display: block;
+}
+
+.input {
+  width: 10%;
+  margin-top: 16px;
+  padding-left: 24px;
+}
+
+.button {
+  margin-top: 16px;
+}
+
+.results {
+  margin-top: 16px;
+}
+
+.closer {
+  margin-top:  5px;
+  margin-bottom: 5px;
+}
+
+.distance {
+  font-weight: 700;
+  color: blue;
+}
+
+.answer {
+  font-weight:  700;
+  color:  green;
+}
+
+.rating {
+  font-weight: 700;
+}
